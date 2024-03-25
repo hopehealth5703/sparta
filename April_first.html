@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+        * {
+            font-family: 'Single Day', cursive;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .title {
+            width: auto;
+            color: white;
+            text-align: center;
+            margin: 50px, auto;
+        }
+
+        .problem {
+            width: auto;
+            height: auto;
+            margin: 0px auto 0px auto;
+        }
+
+        .problem>label {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            alert("당신의 PC또는 스마트폰을 해킹하는것에 동의하십니까?")
+            alert("개인정보(계좌번호, 주민등록번호) 수집에 동의하십니까?")
+        });
+        function checkboxGroup1(currentCheckbox) {
+            const checkboxes = document.getElementsByName("option1");
+            let checkedCount = 0;
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkedCount++;
+                    if (checkboxes[i] !== currentCheckbox) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+            }
+
+            if (checkedCount === 0) {
+                currentCheckbox.checked = true;
+            }
+        }
+        function checkboxGroup2(currentCheckbox) {
+            const checkboxes = document.getElementsByName("option2");
+            let checkedCount = 0;
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkedCount++;
+                    if (checkboxes[i] !== currentCheckbox) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+            }
+
+            if (checkedCount === 0) {
+                currentCheckbox.checked = true;
+            }
+        }
+        function checkboxGroup3(currentCheckbox) {
+            const checkboxes = document.getElementsByName("option3");
+            let checkedCount = 0;
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkedCount++;
+                    if (checkboxes[i] !== currentCheckbox) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+            }
+
+            if (checkedCount === 0) {
+                currentCheckbox.checked = true;
+            }
+        }
+        function checkboxGroup4(currentCheckbox) {
+            const checkboxes = document.getElementsByName("option4");
+            let checkedCount = 0;
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkedCount++;
+                    if (checkboxes[i] !== currentCheckbox) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+            }
+
+            if (checkedCount === 0) {
+                currentCheckbox.checked = true;
+            }
+        }
+        function checkboxGroup5(currentCheckbox) {
+            const checkboxes = document.getElementsByName("option5");
+            let checkedCount = 0;
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkedCount++;
+                    if (checkboxes[i] !== currentCheckbox) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+            }
+
+            if (checkedCount === 0) {
+                currentCheckbox.checked = true;
+            }
+        }
+        function checkboxGroup6(currentCheckbox) {
+            const checkboxes = document.getElementsByName("option6");
+            let checkedCount = 0;
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkedCount++;
+                    if (checkboxes[i] !== currentCheckbox) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+            }
+
+            if (checkedCount === 0) {
+                currentCheckbox.checked = true;
+            }
+        }
+        function checkboxGroup7(currentCheckbox) {
+            const checkboxes = document.getElementsByName("option7");
+            let checkedCount = 0;
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkedCount++;
+                    if (checkboxes[i] !== currentCheckbox) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+            }
+
+            if (checkedCount === 0) {
+                currentCheckbox.checked = true;
+            }
+        }
+        function checkboxGroup8(currentCheckbox) {
+            const checkboxes = document.getElementsByName("option8");
+            let checkedCount = 0;
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkedCount++;
+                    if (checkboxes[i] !== currentCheckbox) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+            }
+
+            if (checkedCount === 0) {
+                currentCheckbox.checked = true;
+            }
+        }
+        function checkboxGroup9(currentCheckbox) {
+            const checkboxes = document.getElementsByName("option9");
+            let checkedCount = 0;
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkedCount++;
+                    if (checkboxes[i] !== currentCheckbox) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+            }
+
+            if (checkedCount === 0) {
+                currentCheckbox.checked = true;
+            }
+        }
+        function checkboxGroup10(currentCheckbox) {
+            const checkboxes = document.getElementsByName("option10");
+            let checkedCount = 0;
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkedCount++;
+                    if (checkboxes[i] !== currentCheckbox) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+            }
+
+            if (checkedCount === 0) {
+                currentCheckbox.checked = true;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="title">
+        <h1>IQ test</h1>
+        <div class="problem">
+            <p>문제1</p>
+            <label>
+                <input id="che1-1" type="checkbox" name="option1" value="value1" onchange="checkboxGroup1(this)"> Option
+                1
+            </label>
+            <label>
+                <input id="che1-2" type="checkbox" name="option1" value="value2" onchange="checkboxGroup1(this)"> Option
+                2
+            </label>
+            <label>
+                <input id="che1-3" type="checkbox" name="option1" value="value3" onchange="checkboxGroup1(this)"> Option
+                3
+            </label>
+        </div>
+        <div class="problem">
+            <p>문제2</p>
+            <label>
+                <input id="che2-1" type="checkbox" name="option2" value="value1" onchange="checkboxGroup2(this)"> Option
+                1
+            </label>
+            <label>
+                <input id="che2-2" type="checkbox" name="option2" value="value2" onchange="checkboxGroup2(this)"> Option
+                2
+            </label>
+            <label>
+                <input id="che2-3" type="checkbox" name="option2" value="value3" onchange="checkboxGroup2(this)"> Option
+                3
+            </label>
+        </div>
+        <div class="problem">
+            <p>문제3</p>
+            <label>
+                <input id="che3-1" type="checkbox" name="option3" value="value1" onchange="checkboxGroup3(this)"> Option
+                1
+            </label>
+            <label>
+                <input id="che3-2" type="checkbox" name="option3" value="value2" onchange="checkboxGroup3(this)"> Option
+                2
+            </label>
+            <label>
+                <input id="che3-3" type="checkbox" name="option3" value="value3" onchange="checkboxGroup3(this)"> Option
+                3
+            </label>
+        </div>
+        <div class="problem">
+            <p>문제4</p>
+            <label>
+                <input id="che4-1" type="checkbox" name="option4" value="value1" onchange="checkboxGroup4(this)"> Option
+                1
+            </label>
+            <label>
+                <input id="che4-2" type="checkbox" name="option4" value="value2" onchange="checkboxGroup4(this)"> Option
+                2
+            </label>
+            <label>
+                <input id="che4-3" type="checkbox" name="option4" value="value3" onchange="checkboxGroup4(this)"> Option
+                3
+            </label>
+        </div>
+        <div class="problem">
+            <p>문제5</p>
+            <label>
+                <input id="che5-1" type="checkbox" name="option5" value="value1" onchange="checkboxGroup5(this)"> Option
+                1
+            </label>
+            <label>
+                <input id="che5-2" type="checkbox" name="option5" value="value2" onchange="checkboxGroup5(this)"> Option
+                2
+            </label>
+            <label>
+                <input id="che5-3" type="checkbox" name="option5" value="value3" onchange="checkboxGroup5(this)"> Option
+                3
+            </label>
+        </div>
+        <div class="problem">
+            <p>문제6</p>
+            <label>
+                <input id="che6-1" type="checkbox" name="option6" value="value1" onchange="checkboxGroup6(this)"> Option
+                1
+            </label>
+            <label>
+                <input id="che6-2" type="checkbox" name="option6" value="value2" onchange="checkboxGroup6(this)"> Option
+                2
+            </label>
+            <label>
+                <input id="che6-3" type="checkbox" name="option6" value="value3" onchange="checkboxGroup6(this)"> Option
+                3
+            </label>
+        </div>
+        <div class="problem">
+            <p>문제7</p>
+            <label>
+                <input id="che7-1" type="checkbox" name="option7" value="value1" onchange="checkboxGroup7(this)"> Option
+                1
+            </label>
+            <label>
+                <input id="che7-2" type="checkbox" name="option7" value="value2" onchange="checkboxGroup7(this)"> Option
+                2
+            </label>
+            <label>
+                <input id="che7-3" type="checkbox" name="option7" value="value3" onchange="checkboxGroup7(this)"> Option
+                3
+            </label>
+        </div>
+        <div class="problem">
+            <p>문제8</p>
+            <label>
+                <input id="che8-1" type="checkbox" name="option8" value="value1" onchange="checkboxGroup8(this)"> Option
+                1
+            </label>
+            <label>
+                <input id="che8-2" type="checkbox" name="option8" value="value2" onchange="checkboxGroup8(this)"> Option
+                2
+            </label>
+            <label>
+                <input id="che8-3" type="checkbox" name="option8" value="value3" onchange="checkboxGroup8(this)"> Option
+                3
+            </label>
+        </div>
+        <div class="problem">
+            <p>문제9</p>
+            <label>
+                <input id="che9-1" type="checkbox" name="option9" value="value1" onchange="checkboxGroup9(this)"> Option
+                1
+            </label>
+            <label>
+                <input id="che9-2" type="checkbox" name="option9" value="value2" onchange="checkboxGroup9(this)"> Option
+                2
+            </label>
+            <label>
+                <input id="che9-3" type="checkbox" name="option9" value="value3" onchange="checkboxGroup9(this)"> Option
+                3
+            </label>
+        </div>
+        <div class="problem">
+            <p>문제10</p>
+            <label>
+                <input id="che10-1" type="checkbox" name="option10" value="value1" onchange="checkboxGroup10(this)">
+                Option 1
+            </label>
+            <label>
+                <input id="che10-2" type="checkbox" name="option10" value="value2" onchange="checkboxGroup10(this)">
+                Option 2
+            </label>
+            <label>
+                <input id="che01-3" type="checkbox" name="option10" value="value3" onchange="checkboxGroup10(this)">
+                Option 3
+            </label>
+        </div>
+    </div>
+</body>
+
+</html>
